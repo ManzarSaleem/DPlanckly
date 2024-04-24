@@ -1,0 +1,16 @@
+PODS:
+  - DPlanckly (0.1.0)
+
+DEPENDENCIES:
+  - DPlanckly (from `../`)
+
+EXTERNAL SOURCES:
+  DPlanckly:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DPlanckly: 456965ddbac3472fe6bcb1a8b64c345b98a5ac29
+
+PODFILE CHECKSUM: c3386abc252adf8a2a3c212fb034249c4a8aa5ab
+
+COCOAPODS: 1.13.0

@@ -1,0 +1,6 @@
+framework module Pods_DPlanckly_Example {
+  umbrella header "Pods-DPlanckly_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

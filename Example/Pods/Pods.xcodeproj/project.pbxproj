@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02197102F1982E26220496C7F6EC6AD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2473EC75D9FED7C3355A161DA3D74B89 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B68072E37442CED02BBF4A72853E2ED /* ReplaceMe.swift */; };
+		26E3883DE0B7F397CDFF2FFCF7A6C8E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		583005B6EA56E7A27A87F8CFC29BD659 /* Pods-DPlanckly_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 112824D754F37D6A8CB89D0EECFFD8AA /* Pods-DPlanckly_Tests-dummy.m */; };
+		6368160203BF911F6199F8493180D78F /* DPlanckly-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA170BCBC4FB85C8A3DD5F4DD0B886DA /* DPlanckly-dummy.m */; };
+		C42E10F27A9125E8FE95700C56B5BBFB /* Pods-DPlanckly_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F43E5862C87C7F1DA9717F92A46453A /* Pods-DPlanckly_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D10E889F07CB2C2D549C84D84137F907 /* Pods-DPlanckly_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44263F8586454E92D8C363A3A406C209 /* Pods-DPlanckly_Example-dummy.m */; };
+		D77F61F30907ADB8C0B417A55BB2F911 /* DPlanckly-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEA3D5227B33C771B59E8140BCCF822E /* DPlanckly-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4D6306399DB8B3BB198A9404213B2E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		ECE9133C62287B132F19F3CD6527DEBA /* Pods-DPlanckly_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBBBB37F7802EBAFB0CA270C050283B3 /* Pods-DPlanckly_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60F133CC96A7C6EBE0B927431060D847 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3C64EFE71EE77BE6195CD117B439032;
+			remoteInfo = DPlanckly;
+		};
+		8DCEC7DD51CAA7B2F082FD7924885714 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 881A91C978F719CC477329F9E6C4478D;
+			remoteInfo = "Pods-DPlanckly_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		112824D754F37D6A8CB89D0EECFFD8AA /* Pods-DPlanckly_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DPlanckly_Tests-dummy.m"; sourceTree = "<group>"; };
+		1A1C77CB5C5F2D5D229B79F8C2A30994 /* DPlanckly.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DPlanckly.modulemap; sourceTree = "<group>"; };
+		1B6910920BC4ADAB45568C0DF704FCA5 /* Pods-DPlanckly_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DPlanckly_Example.modulemap"; sourceTree = "<group>"; };
+		234FC65643B4AC72FC56FB7A679A5B85 /* Pods-DPlanckly_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DPlanckly_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2D1A7100C032C8D94BAC65A04AD7C562 /* Pods-DPlanckly_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DPlanckly_Tests-Info.plist"; sourceTree = "<group>"; };
+		3177B53918DF4F4A0C63BA304B0A537D /* Pods-DPlanckly_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DPlanckly_Example-frameworks.sh"; sourceTree = "<group>"; };
+		37FC3FBBEA970A6072922F3E45978A67 /* DPlanckly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DPlanckly.release.xcconfig; sourceTree = "<group>"; };
+		391F1A8C24C00D8C11E5965094A932A8 /* Pods-DPlanckly_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DPlanckly_Example-Info.plist"; sourceTree = "<group>"; };
+		3F43E5862C87C7F1DA9717F92A46453A /* Pods-DPlanckly_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DPlanckly_Tests-umbrella.h"; sourceTree = "<group>"; };
+		44263F8586454E92D8C363A3A406C209 /* Pods-DPlanckly_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DPlanckly_Example-dummy.m"; sourceTree = "<group>"; };
+		47946567113C0F721479CEC5B59921E0 /* Pods-DPlanckly_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DPlanckly_Tests.modulemap"; sourceTree = "<group>"; };
+		532054554728E46F926E127FC1B5E925 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		533B132CE424200EDC7165638710A1EB /* Pods-DPlanckly_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DPlanckly_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		57F0999EB10A89126B888876E4B5E32B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5B68072E37442CED02BBF4A72853E2ED /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DPlanckly/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		6100D9093E6D532683F47A967A65616A /* Pods-DPlanckly_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DPlanckly_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6937179CD82C500F8ED1EA5963CE8335 /* Pods-DPlanckly_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DPlanckly_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6F3C0CD49645EE70647BC8F9C20EB370 /* Pods-DPlanckly_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DPlanckly_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7DB2A05E53917DCA7BBDEA0F0CEEB62C /* DPlanckly-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DPlanckly-Info.plist"; sourceTree = "<group>"; };
+		813FCEB9D7982FC307AA87072D5C0C39 /* DPlanckly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DPlanckly.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD767868F9E979EAB57379A5C4EA7770 /* DPlanckly */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DPlanckly; path = DPlanckly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1872C78EB6FD981C1F0B2D904CD7C81 /* Pods-DPlanckly_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DPlanckly_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6B8F7AA1C8D452A94FAA22B4548FBE4 /* Pods-DPlanckly_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DPlanckly_Example"; path = Pods_DPlanckly_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F5C9E764103B16E9234E456FFB45D7 /* DPlanckly.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DPlanckly.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CEA3D5227B33C771B59E8140BCCF822E /* DPlanckly-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DPlanckly-umbrella.h"; sourceTree = "<group>"; };
+		DBBBB37F7802EBAFB0CA270C050283B3 /* Pods-DPlanckly_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DPlanckly_Example-umbrella.h"; sourceTree = "<group>"; };
+		E4132589C0A6693F4EE1562C7892D7B2 /* Pods-DPlanckly_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DPlanckly_Tests"; path = Pods_DPlanckly_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E58450015064FCD0277FE455F0669E45 /* Pods-DPlanckly_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DPlanckly_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EA170BCBC4FB85C8A3DD5F4DD0B886DA /* DPlanckly-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DPlanckly-dummy.m"; sourceTree = "<group>"; };
+		EEB996237EAE5E28D0E60E8F2B1EE8B2 /* DPlanckly-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DPlanckly-prefix.pch"; sourceTree = "<group>"; };
+		F89C09B05B4000C296CD542AF87FEA81 /* Pods-DPlanckly_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DPlanckly_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0443F359A496D6F8CD65A94080DB6B4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E3883DE0B7F397CDFF2FFCF7A6C8E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88DDDBD9B9645ED1CB0E523FAB10EEE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D6306399DB8B3BB198A9404213B2E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE343F71FE0BE11120848A32104BE9BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02197102F1982E26220496C7F6EC6AD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14149E868DD8936E7649168926D70ABD /* DPlanckly */ = {
+			isa = PBXGroup;
+			children = (
+				5B68072E37442CED02BBF4A72853E2ED /* ReplaceMe.swift */,
+				2EC57B2FAFDD27072C1C2A0D88189CE9 /* Pod */,
+				A71F03B9D50AF2DCC5C4CA1A56838664 /* Support Files */,
+			);
+			name = DPlanckly;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2A875985756FEA25DCEF373E037AEC66 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14149E868DD8936E7649168926D70ABD /* DPlanckly */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2EC57B2FAFDD27072C1C2A0D88189CE9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C5F5C9E764103B16E9234E456FFB45D7 /* DPlanckly.podspec */,
+				532054554728E46F926E127FC1B5E925 /* LICENSE */,
+				57F0999EB10A89126B888876E4B5E32B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6E78348E4E5E65843195E2052520E1CA /* Pods-DPlanckly_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1B6910920BC4ADAB45568C0DF704FCA5 /* Pods-DPlanckly_Example.modulemap */,
+				E58450015064FCD0277FE455F0669E45 /* Pods-DPlanckly_Example-acknowledgements.markdown */,
+				F89C09B05B4000C296CD542AF87FEA81 /* Pods-DPlanckly_Example-acknowledgements.plist */,
+				44263F8586454E92D8C363A3A406C209 /* Pods-DPlanckly_Example-dummy.m */,
+				3177B53918DF4F4A0C63BA304B0A537D /* Pods-DPlanckly_Example-frameworks.sh */,
+				391F1A8C24C00D8C11E5965094A932A8 /* Pods-DPlanckly_Example-Info.plist */,
+				DBBBB37F7802EBAFB0CA270C050283B3 /* Pods-DPlanckly_Example-umbrella.h */,
+				6F3C0CD49645EE70647BC8F9C20EB370 /* Pods-DPlanckly_Example.debug.xcconfig */,
+				6100D9093E6D532683F47A967A65616A /* Pods-DPlanckly_Example.release.xcconfig */,
+			);
+			name = "Pods-DPlanckly_Example";
+			path = "Target Support Files/Pods-DPlanckly_Example";
+			sourceTree = "<group>";
+		};
+		A71F03B9D50AF2DCC5C4CA1A56838664 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A1C77CB5C5F2D5D229B79F8C2A30994 /* DPlanckly.modulemap */,
+				EA170BCBC4FB85C8A3DD5F4DD0B886DA /* DPlanckly-dummy.m */,
+				7DB2A05E53917DCA7BBDEA0F0CEEB62C /* DPlanckly-Info.plist */,
+				EEB996237EAE5E28D0E60E8F2B1EE8B2 /* DPlanckly-prefix.pch */,
+				CEA3D5227B33C771B59E8140BCCF822E /* DPlanckly-umbrella.h */,
+				813FCEB9D7982FC307AA87072D5C0C39 /* DPlanckly.debug.xcconfig */,
+				37FC3FBBEA970A6072922F3E45978A67 /* DPlanckly.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DPlanckly";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2A875985756FEA25DCEF373E037AEC66 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				ED2539CC7A1BDB7A16CC79248406CC59 /* Products */,
+				ECC6FFAE9AF6F769B0FEF96DAF388F79 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEED53283B15E7816A7382BAB3A4F92B /* Pods-DPlanckly_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				47946567113C0F721479CEC5B59921E0 /* Pods-DPlanckly_Tests.modulemap */,
+				533B132CE424200EDC7165638710A1EB /* Pods-DPlanckly_Tests-acknowledgements.markdown */,
+				6937179CD82C500F8ED1EA5963CE8335 /* Pods-DPlanckly_Tests-acknowledgements.plist */,
+				112824D754F37D6A8CB89D0EECFFD8AA /* Pods-DPlanckly_Tests-dummy.m */,
+				2D1A7100C032C8D94BAC65A04AD7C562 /* Pods-DPlanckly_Tests-Info.plist */,
+				3F43E5862C87C7F1DA9717F92A46453A /* Pods-DPlanckly_Tests-umbrella.h */,
+				B1872C78EB6FD981C1F0B2D904CD7C81 /* Pods-DPlanckly_Tests.debug.xcconfig */,
+				234FC65643B4AC72FC56FB7A679A5B85 /* Pods-DPlanckly_Tests.release.xcconfig */,
+			);
+			name = "Pods-DPlanckly_Tests";
+			path = "Target Support Files/Pods-DPlanckly_Tests";
+			sourceTree = "<group>";
+		};
+		ECC6FFAE9AF6F769B0FEF96DAF388F79 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E78348E4E5E65843195E2052520E1CA /* Pods-DPlanckly_Example */,
+				DEED53283B15E7816A7382BAB3A4F92B /* Pods-DPlanckly_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ED2539CC7A1BDB7A16CC79248406CC59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD767868F9E979EAB57379A5C4EA7770 /* DPlanckly */,
+				B6B8F7AA1C8D452A94FAA22B4548FBE4 /* Pods-DPlanckly_Example */,
+				E4132589C0A6693F4EE1562C7892D7B2 /* Pods-DPlanckly_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5B3A3677B7AAE2F841145AC66502A47F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77F61F30907ADB8C0B417A55BB2F911 /* DPlanckly-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BBBE563A1B695CF17082502E2D30AE6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE9133C62287B132F19F3CD6527DEBA /* Pods-DPlanckly_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31C2CEDF7557E86449B70E2925D4E34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42E10F27A9125E8FE95700C56B5BBFB /* Pods-DPlanckly_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		881A91C978F719CC477329F9E6C4478D /* Pods-DPlanckly_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C30FB065908F686F06CDCA74A1D1F376 /* Build configuration list for PBXNativeTarget "Pods-DPlanckly_Example" */;
+			buildPhases = (
+				7BBBE563A1B695CF17082502E2D30AE6 /* Headers */,
+				45A57884E8A1D42A525C020133F13485 /* Sources */,
+				0443F359A496D6F8CD65A94080DB6B4D /* Frameworks */,
+				88EF067E87C966FDE1ED83904509692B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				296E8FE8C7BD3438C6BD21BA8BEF1AEC /* PBXTargetDependency */,
+			);
+			name = "Pods-DPlanckly_Example";
+			productName = Pods_DPlanckly_Example;
+			productReference = B6B8F7AA1C8D452A94FAA22B4548FBE4 /* Pods-DPlanckly_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3C64EFE71EE77BE6195CD117B439032 /* DPlanckly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1D8647E16BEBE84DE285D9C8C706E61 /* Build configuration list for PBXNativeTarget "DPlanckly" */;
+			buildPhases = (
+				5B3A3677B7AAE2F841145AC66502A47F /* Headers */,
+				CA90E2C1C822DBD72B3985817EFF6631 /* Sources */,
+				88DDDBD9B9645ED1CB0E523FAB10EEE5 /* Frameworks */,
+				4A2A7C79EE8FBD3DFC90487BCDCFCFEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DPlanckly;
+			productName = DPlanckly;
+			productReference = AD767868F9E979EAB57379A5C4EA7770 /* DPlanckly */;
+			productType = "com.apple.product-type.framework";
+		};
+		DBFF6BE2AEF870F27E7536FDAA0E0718 /* Pods-DPlanckly_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE71BF369AE995AC26AD62BF4B1846ED /* Build configuration list for PBXNativeTarget "Pods-DPlanckly_Tests" */;
+			buildPhases = (
+				B31C2CEDF7557E86449B70E2925D4E34 /* Headers */,
+				760133CD8334CA062726CF28EF39AA63 /* Sources */,
+				BE343F71FE0BE11120848A32104BE9BF /* Frameworks */,
+				90E5D089EB0BA086F3684F5509830908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B10809101331025148AE40BA242D53E /* PBXTargetDependency */,
+			);
+			name = "Pods-DPlanckly_Tests";
+			productName = Pods_DPlanckly_Tests;
+			productReference = E4132589C0A6693F4EE1562C7892D7B2 /* Pods-DPlanckly_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = ED2539CC7A1BDB7A16CC79248406CC59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3C64EFE71EE77BE6195CD117B439032 /* DPlanckly */,
+				881A91C978F719CC477329F9E6C4478D /* Pods-DPlanckly_Example */,
+				DBFF6BE2AEF870F27E7536FDAA0E0718 /* Pods-DPlanckly_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A2A7C79EE8FBD3DFC90487BCDCFCFEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EF067E87C966FDE1ED83904509692B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E5D089EB0BA086F3684F5509830908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45A57884E8A1D42A525C020133F13485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10E889F07CB2C2D549C84D84137F907 /* Pods-DPlanckly_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		760133CD8334CA062726CF28EF39AA63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583005B6EA56E7A27A87F8CFC29BD659 /* Pods-DPlanckly_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA90E2C1C822DBD72B3985817EFF6631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6368160203BF911F6199F8493180D78F /* DPlanckly-dummy.m in Sources */,
+				2473EC75D9FED7C3355A161DA3D74B89 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		296E8FE8C7BD3438C6BD21BA8BEF1AEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DPlanckly;
+			target = B3C64EFE71EE77BE6195CD117B439032 /* DPlanckly */;
+			targetProxy = 60F133CC96A7C6EBE0B927431060D847 /* PBXContainerItemProxy */;
+		};
+		4B10809101331025148AE40BA242D53E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DPlanckly_Example";
+			target = 881A91C978F719CC477329F9E6C4478D /* Pods-DPlanckly_Example */;
+			targetProxy = 8DCEC7DD51CAA7B2F082FD7924885714 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D006FA4A9B92F2760BF15284D7E2138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F3C0CD49645EE70647BC8F9C20EB370 /* Pods-DPlanckly_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DPlanckly_Example/Pods-DPlanckly_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DPlanckly_Example/Pods-DPlanckly_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		623457E605D975D1919B77AFD761E9AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1872C78EB6FD981C1F0B2D904CD7C81 /* Pods-DPlanckly_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DPlanckly_Tests/Pods-DPlanckly_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DPlanckly_Tests/Pods-DPlanckly_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		709270659FB7B1C0307E672AE87F1EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 234FC65643B4AC72FC56FB7A679A5B85 /* Pods-DPlanckly_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DPlanckly_Tests/Pods-DPlanckly_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DPlanckly_Tests/Pods-DPlanckly_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8A22C564EB300D67FEB19E2C89F95FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 813FCEB9D7982FC307AA87072D5C0C39 /* DPlanckly.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DPlanckly/DPlanckly-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DPlanckly/DPlanckly-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DPlanckly/DPlanckly.modulemap";
+				PRODUCT_MODULE_NAME = DPlanckly;
+				PRODUCT_NAME = DPlanckly;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB174A9722D66953E528E2E2D9DA300B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37FC3FBBEA970A6072922F3E45978A67 /* DPlanckly.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DPlanckly/DPlanckly-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DPlanckly/DPlanckly-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DPlanckly/DPlanckly.modulemap";
+				PRODUCT_MODULE_NAME = DPlanckly;
+				PRODUCT_NAME = DPlanckly;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3D305AB13FBD5E7F7998537A5341A0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6100D9093E6D532683F47A967A65616A /* Pods-DPlanckly_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DPlanckly_Example/Pods-DPlanckly_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DPlanckly_Example/Pods-DPlanckly_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C30FB065908F686F06CDCA74A1D1F376 /* Build configuration list for PBXNativeTarget "Pods-DPlanckly_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D006FA4A9B92F2760BF15284D7E2138 /* Debug */,
+				C3D305AB13FBD5E7F7998537A5341A0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1D8647E16BEBE84DE285D9C8C706E61 /* Build configuration list for PBXNativeTarget "DPlanckly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A22C564EB300D67FEB19E2C89F95FAF /* Debug */,
+				AB174A9722D66953E528E2E2D9DA300B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE71BF369AE995AC26AD62BF4B1846ED /* Build configuration list for PBXNativeTarget "Pods-DPlanckly_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				623457E605D975D1919B77AFD761E9AB /* Debug */,
+				709270659FB7B1C0307E672AE87F1EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
