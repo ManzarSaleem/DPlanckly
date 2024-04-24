@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		02197102F1982E26220496C7F6EC6AD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2473EC75D9FED7C3355A161DA3D74B89 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B68072E37442CED02BBF4A72853E2ED /* ReplaceMe.swift */; };
 		26E3883DE0B7F397CDFF2FFCF7A6C8E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		583005B6EA56E7A27A87F8CFC29BD659 /* Pods-DPlanckly_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 112824D754F37D6A8CB89D0EECFFD8AA /* Pods-DPlanckly_Tests-dummy.m */; };
 		6368160203BF911F6199F8493180D78F /* DPlanckly-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA170BCBC4FB85C8A3DD5F4DD0B886DA /* DPlanckly-dummy.m */; };
@@ -48,24 +47,23 @@
 		3F43E5862C87C7F1DA9717F92A46453A /* Pods-DPlanckly_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DPlanckly_Tests-umbrella.h"; sourceTree = "<group>"; };
 		44263F8586454E92D8C363A3A406C209 /* Pods-DPlanckly_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DPlanckly_Example-dummy.m"; sourceTree = "<group>"; };
 		47946567113C0F721479CEC5B59921E0 /* Pods-DPlanckly_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DPlanckly_Tests.modulemap"; sourceTree = "<group>"; };
-		532054554728E46F926E127FC1B5E925 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		532054554728E46F926E127FC1B5E925 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		533B132CE424200EDC7165638710A1EB /* Pods-DPlanckly_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DPlanckly_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		57F0999EB10A89126B888876E4B5E32B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		5B68072E37442CED02BBF4A72853E2ED /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DPlanckly/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		57F0999EB10A89126B888876E4B5E32B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6100D9093E6D532683F47A967A65616A /* Pods-DPlanckly_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DPlanckly_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6937179CD82C500F8ED1EA5963CE8335 /* Pods-DPlanckly_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DPlanckly_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6F3C0CD49645EE70647BC8F9C20EB370 /* Pods-DPlanckly_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DPlanckly_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7DB2A05E53917DCA7BBDEA0F0CEEB62C /* DPlanckly-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DPlanckly-Info.plist"; sourceTree = "<group>"; };
 		813FCEB9D7982FC307AA87072D5C0C39 /* DPlanckly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DPlanckly.debug.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AD767868F9E979EAB57379A5C4EA7770 /* DPlanckly */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DPlanckly; path = DPlanckly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD767868F9E979EAB57379A5C4EA7770 /* DPlanckly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DPlanckly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1872C78EB6FD981C1F0B2D904CD7C81 /* Pods-DPlanckly_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DPlanckly_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B6B8F7AA1C8D452A94FAA22B4548FBE4 /* Pods-DPlanckly_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DPlanckly_Example"; path = Pods_DPlanckly_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5F5C9E764103B16E9234E456FFB45D7 /* DPlanckly.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DPlanckly.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B6B8F7AA1C8D452A94FAA22B4548FBE4 /* Pods_DPlanckly_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DPlanckly_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F5C9E764103B16E9234E456FFB45D7 /* DPlanckly.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DPlanckly.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		CEA3D5227B33C771B59E8140BCCF822E /* DPlanckly-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DPlanckly-umbrella.h"; sourceTree = "<group>"; };
 		DBBBB37F7802EBAFB0CA270C050283B3 /* Pods-DPlanckly_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DPlanckly_Example-umbrella.h"; sourceTree = "<group>"; };
-		E4132589C0A6693F4EE1562C7892D7B2 /* Pods-DPlanckly_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DPlanckly_Tests"; path = Pods_DPlanckly_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4132589C0A6693F4EE1562C7892D7B2 /* Pods_DPlanckly_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DPlanckly_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E58450015064FCD0277FE455F0669E45 /* Pods-DPlanckly_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DPlanckly_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EA170BCBC4FB85C8A3DD5F4DD0B886DA /* DPlanckly-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DPlanckly-dummy.m"; sourceTree = "<group>"; };
 		EEB996237EAE5E28D0E60E8F2B1EE8B2 /* DPlanckly-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DPlanckly-prefix.pch"; sourceTree = "<group>"; };
@@ -100,10 +98,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04E8DAEF2BD9A6670031A8B4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		14149E868DD8936E7649168926D70ABD /* DPlanckly */ = {
 			isa = PBXGroup;
 			children = (
-				5B68072E37442CED02BBF4A72853E2ED /* ReplaceMe.swift */,
+				04E8DAEF2BD9A6670031A8B4 /* Source */,
 				2EC57B2FAFDD27072C1C2A0D88189CE9 /* Pod */,
 				A71F03B9D50AF2DCC5C4CA1A56838664 /* Support Files */,
 			);
@@ -216,9 +221,9 @@
 		ED2539CC7A1BDB7A16CC79248406CC59 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AD767868F9E979EAB57379A5C4EA7770 /* DPlanckly */,
-				B6B8F7AA1C8D452A94FAA22B4548FBE4 /* Pods-DPlanckly_Example */,
-				E4132589C0A6693F4EE1562C7892D7B2 /* Pods-DPlanckly_Tests */,
+				AD767868F9E979EAB57379A5C4EA7770 /* DPlanckly.framework */,
+				B6B8F7AA1C8D452A94FAA22B4548FBE4 /* Pods_DPlanckly_Example.framework */,
+				E4132589C0A6693F4EE1562C7892D7B2 /* Pods_DPlanckly_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -269,7 +274,7 @@
 			);
 			name = "Pods-DPlanckly_Example";
 			productName = Pods_DPlanckly_Example;
-			productReference = B6B8F7AA1C8D452A94FAA22B4548FBE4 /* Pods-DPlanckly_Example */;
+			productReference = B6B8F7AA1C8D452A94FAA22B4548FBE4 /* Pods_DPlanckly_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B3C64EFE71EE77BE6195CD117B439032 /* DPlanckly */ = {
@@ -287,7 +292,7 @@
 			);
 			name = DPlanckly;
 			productName = DPlanckly;
-			productReference = AD767868F9E979EAB57379A5C4EA7770 /* DPlanckly */;
+			productReference = AD767868F9E979EAB57379A5C4EA7770 /* DPlanckly.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DBFF6BE2AEF870F27E7536FDAA0E0718 /* Pods-DPlanckly_Tests */ = {
@@ -306,7 +311,7 @@
 			);
 			name = "Pods-DPlanckly_Tests";
 			productName = Pods_DPlanckly_Tests;
-			productReference = E4132589C0A6693F4EE1562C7892D7B2 /* Pods-DPlanckly_Tests */;
+			productReference = E4132589C0A6693F4EE1562C7892D7B2 /* Pods_DPlanckly_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -384,7 +389,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6368160203BF911F6199F8493180D78F /* DPlanckly-dummy.m in Sources */,
-				2473EC75D9FED7C3355A161DA3D74B89 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +426,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-DPlanckly_Example/Pods-DPlanckly_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DPlanckly_Example/Pods-DPlanckly_Example.modulemap";
@@ -455,7 +459,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-DPlanckly_Tests/Pods-DPlanckly_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DPlanckly_Tests/Pods-DPlanckly_Tests.modulemap";
@@ -488,7 +492,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-DPlanckly_Tests/Pods-DPlanckly_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DPlanckly_Tests/Pods-DPlanckly_Tests.modulemap";
@@ -556,13 +560,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -584,7 +587,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/DPlanckly/DPlanckly-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DPlanckly/DPlanckly-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/DPlanckly/DPlanckly.modulemap";
 				PRODUCT_MODULE_NAME = DPlanckly;
@@ -615,7 +618,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/DPlanckly/DPlanckly-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DPlanckly/DPlanckly-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/DPlanckly/DPlanckly.modulemap";
 				PRODUCT_MODULE_NAME = DPlanckly;
@@ -647,7 +650,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-DPlanckly_Example/Pods-DPlanckly_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DPlanckly_Example/Pods-DPlanckly_Example.modulemap";
@@ -718,7 +721,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
