@@ -38,7 +38,7 @@ s.platform     = :ios, "8.0"
 s.dependency 'Kingfisher'
  s.dependency 'MTBBarcodeScanner'
 s.dependency 'SwiftLuhn'
-s.dependency 'QRCode'
+#s.dependency 'QRCode'
 s.dependency 'Cosmos'
 s.dependency 'BSImagePicker'
 s.dependency 'DatePickerDialog'
