@@ -26,10 +26,10 @@ Pod::Spec.new do |s|
   s.author           = { 'ManzarSaleem' => 'mnzrslm907@gmail.com' }
   s.source           = { :git => 'https://github.com/ManzarSaleem/DPlanckly.git', :tag => s.version.to_s }
   s.social_media_url = 'https://www.facebook.com/muhammad.manzar.92'
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '8.0'
 #  s.source_files = 'Source/**/*.swift'
   s.swift_version = "5.0"
-s.platform     = :ios, "12.0"
+s.platform     = :ios, "8.0"
   s.framework = "UIKit"
   s.framework = "Foundation"
 #  s.resource_bundles = {
